@@ -1,0 +1,18 @@
+<svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="150" fill="transparent"/>
+  
+  <!-- Main Text -->
+  <text x="250" y="50" font-family="Arial Black" font-weight="900" font-size="60" text-anchor="middle" fill="#000080">
+    Re<tspan fill="#4169E1">::</tspan>Innovation
+  </text>
+  
+  <!-- Decorative Bars - thicker and vertically centered with "Software" -->
+  <line x1="56" y1="93" x2="106" y2="93" stroke="#4169E1" stroke-width="8"/>
+  <line x1="400" y1="93" x2="450" y2="93" stroke="#4169E1" stroke-width="8"/>
+  
+  <!-- Software Text (Centered) -->
+  <text x="250" y="110" font-family="Arial Black" font-weight="900" font-size="50" fill="#000080" text-anchor="middle">
+    Software
+  </text>
+</svg>
