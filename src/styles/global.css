@@ -136,6 +136,19 @@ hr {
 	border-top: 1px solid rgb(var(--gray-light));
 }
 
+/* Default state (desktop) */
+.desktop-image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.mobile-image {
+	display: none;
+	width: 100%;
+	height: auto;
+}
+
 @media (max-width: 720px) {
 	body {
 		font-size: 18px;
@@ -143,6 +156,14 @@ hr {
 
 	main {
 		padding: 1em;
+	}
+
+	.desktop-image {
+		display: none;
+	}
+
+	.mobile-image {
+		display: block;
 	}
 }
 
