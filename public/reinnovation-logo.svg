@@ -4,14 +4,8 @@
   
   <!-- Main Text -->
   <text x="10" y="50" font-family="Arial Black" font-weight="900" font-size="60" text-anchor="start" fill="#1b2a4e">
-    Re<tspan fill="#4cd137">::</tspan>Innovation
+    Re<tspan fill="#4cd137">{</tspan>Innovation<tspan fill="#4cd137">}</tspan>
   </text>
-  
-  <!-- Decorative Bars - thicker and vertically centered with "Software" 
-  <line x1="56" y1="93" x2="106" y2="93" stroke="#4cd137" stroke-width="8"/>
-  <line x1="400" y1="93" x2="450" y2="93" stroke="#4cd137" stroke-width="8"/>
-  -->
-  <!-- Software Text (Centered) -->
   <text x="10" y="110" font-family="Arial Black" font-weight="900" font-size="60" fill="#1b2a4e" text-anchor="start">
     Software
   </text>
