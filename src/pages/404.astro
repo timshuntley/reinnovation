@@ -1,0 +1,19 @@
+---
+// 404.astro
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout 
+    title="404 - Page Not Found"
+    description="404 Page for ReInnovation Software"
+    pubDate={new Date('March 23 2025')}
+>
+  <main class="flex flex-col items-center justify-center min-h-screen text-center px-4">
+    <h1 class="text-6xl font-bold text-gray-800 mb-4">404</h1>
+    <p class="text-2xl text-gray-600 mb-8">Page Not Found</p>
+    <p class="text-lg text-gray-500 mb-8">The page you are looking for doesn't exist or has been moved.</p>
+    <a href="/" class="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors">
+      Return Home
+    </a>
+  </main>
+</Layout>
