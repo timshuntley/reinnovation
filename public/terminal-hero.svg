@@ -21,14 +21,14 @@
   
   <!-- Terminal Content -->
   <!-- Main Message -->
-  <foreignObject x="20" y="60" width="560" height="90">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, sans-serif; font-size: 28px; font-weight: 800; color: #fff; text-align: center; line-height: 1.0;">
-      Are you struggling to manage the complexity of modern software development? 
+  <foreignObject x="20" y="65" width="560" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, sans-serif; font-size: 30px; font-weight: 800; color: #fff; text-align: center; line-height: 1.0;">
+      Struggling to manage the complexity of modern software development? 
     </div>
   </foreignObject>
-  <foreignObject x="30" y="160" width="550" height="70">
+  <foreignObject x="30" y="150" width="550" height="70">
     <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, sans-serif; font-size: 18px; font-weight: 800; color: #4cd137; text-align: center; line-height: 1.1;">
-      Overcome technical challenges and accelerate business success with a fractional CTO from ReInnovation Software!
+      Accelerate business success with on-demand experts from ReInnovation Software!
     </div>
   </foreignObject>
 
@@ -36,7 +36,7 @@
   <text x="30" y="222" font-family="monospace" font-size="14" fill="#4cd137" dominant-baseline="middle">$</text>
   
   <!-- Blinking Cursor -->
-  <rect x="45" y="215" width="8" height="16" fill="#f1f1f1">
+  <rect x="45" y="215" width="8" height="14" fill="#f1f1f1">
     <animate attributeName="opacity" values="0;1;0" dur=".5s" repeatCount="indefinite" />
   </rect>
   
