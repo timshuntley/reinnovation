@@ -15,14 +15,12 @@
 		rgba(var(--gray), 33%), 0 16px 32px rgba(var(--gray), 33%);
 }
 
-/* Removed @font-face rules for Atkinson */
 body {
-	font-family: Helvetica, sans-serif;
-	/* Changed to Helvetica */
+	font-family: Verdana, sans-serif;
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	background: linear-gradient(var(--gray-gradient)) no-repeat;
+	background: transparent;
 	background-size: 100% 800px;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
@@ -32,10 +30,11 @@ body {
 }
 
 main {
-	width: 90%;
+	width: 100%;
+	background: white;
 	max-width: 1600px;
 	margin: auto;
-	padding: 3em 1em;
+	padding: 1em 1em;
 }
 
 h1,
@@ -134,19 +133,6 @@ blockquote {
 hr {
 	border: none;
 	border-top: 1px solid rgb(var(--gray-light));
-}
-
-/* Default state (desktop) */
-.desktop-image {
-	display: block;
-	width: 100%;
-	height: auto;
-}
-
-.mobile-image {
-	display: none;
-	width: 100%;
-	height: auto;
 }
 
 @media (max-width: 720px) {

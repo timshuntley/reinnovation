@@ -4,11 +4,11 @@
   
   <!-- Main Text with Braces - Adjusted for proper vertical alignment and spacing -->
   <text x="10" y="50" font-size="60" text-anchor="start">
-    <tspan font-family="Arial Black" font-weight="900" fill="#1b2a4e">Re</tspan><tspan font-family="Arial" font-weight="500" fill="#4cd137" dy="-5">{</tspan><tspan font-family="Arial Black" font-weight="900" fill="#1b2a4e" dy="5">Innovation</tspan><tspan font-family="Arial" font-weight="500" fill="#4cd137" dy="-5">}</tspan>
+    <tspan font-family="Georgia" font-weight="900" fill="#1b2a4e">Re</tspan><tspan font-weight="900" font-family="Georgia"  fill="#4cd137" dy="-5">{</tspan><tspan font-weight="900" font-family="Georgia"  fill="#1b2a4e" dy="5">Innovation</tspan><tspan font-weight="900" font-family="Georgia"  fill="#4cd137" dy="-5">}</tspan>
   </text>
   
   <!-- Software text -->
-  <text x="10" y="110" font-family="Arial Black" font-weight="900" font-size="60" fill="#1b2a4e" text-anchor="start">
+  <text x="10" y="110" font-family="Georgia" font-weight="900" font-size="60" fill="#1b2a4e" text-anchor="start">
     Software
   </text>
 </svg>
